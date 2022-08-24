@@ -1,0 +1,57 @@
+#titulo {
+    color: red
+}
+
+p.text {
+    color: slateblue
+}
+
+div p {
+    color: greenyellow
+}
+
+div h2, div h3 {
+    color: rgb(11, 213, 11)
+}
+
+* {
+    font: size 25px;
+    color: black;
+}
+
+/* esto es un mensaje que no queda en el codigo*/
+
+/*
+.color {
+    color: #99f
+}
+.color {
+    color:  rgb(0, 0, 255);
+}
+*/
+.color {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+/*
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+*/
+#fondo {
+    background-color: rgb(170, 55, 55);
+    height: 700px;
+    background-image: url("dot.jpg");
+    background-size: 300px 300px;
+    background-repeat: repeat-y;
+}
