@@ -1,3 +1,8 @@
+* {
+    font-size: 25px;
+    /*color: black; */
+}
+
 #titulo {
     color: red
 }
@@ -7,17 +12,14 @@ p.text {
 }
 
 div p {
-    color: greenyellow
+    color: rgb(44, 67, 9)
 }
 
 div h2, div h3 {
     color: rgb(11, 213, 11)
 }
 
-* {
-    font: size 25px;
-    color: black;
-}
+
 
 /* esto es un mensaje que no queda en el codigo*/
 
@@ -33,7 +35,7 @@ div h2, div h3 {
     border-style: solid;
     border-color: grey;
     border-radius: 5px;
-    border-width: 2rem;
+    border-width: 0.5rem;
 }
 
 /*
@@ -48,10 +50,107 @@ outset
 none
 hidden
 */
+
 #fondo {
-    background-color: rgb(170, 55, 55);
-    height: 700px;
-    background-image: url("dot.jpg");
+    background-color: rgb(248, 244, 244);
+    
+    /*background-image: url("dot.jpg");
     background-size: 300px 300px;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: center top;*/
+    height: 400px;
+    background: rgb(194, 183, 183) url("dot.jpg") repeat-y top right /50px 50px ;
+}
+
+.margen {
+    background-color: rgb(68, 126, 10);
+    margin: 40px;
+    padding: 30px 15px;
+    border: 2px solid;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 2px solid red;
+    }
+
+.texto {
+    font-family: 'Silkscreen', cursive;
+    text-align: center; 
+    text-decoration: overline; 
+     text-shadow: 2px 3px 3px purple;
+}
+
+a:link {
+    color: blueviolet
+}
+
+a:visited {
+    color:rgb(99, 97, 97);
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color:red
+}
+
+ul {
+background-color: cyan;
+list-style-type: none;
+}
+
+table {
+    width: 100px;
+    border-collapse: collapse;
+}
+
+th , td {
+    border: solid 1px;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: grey;
+    cursor: pointer;
+
+}
+
+tr:nth-child(even) {
+    background-color:rgb(204, 197, 197);
+}
+span {
+    display: block;
+    max-width: 2000px;background-color: red;
+}
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 200px
+}
+
+.container {
+    height: 200px;
+}
+
+.right {
+    float: right;
 }
